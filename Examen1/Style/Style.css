@@ -1,0 +1,154 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body{
+    width: 1001px;
+    border-right: 10px solid #062134 ;
+    border-left: 10px solid #062134;
+    border-bottom: 5px solid #062134;
+}
+
+header{
+    background-color:#062134 ;
+    width: 970px;
+    padding: 20px;
+    display: inline-flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.t-nav{
+    list-style: none;
+    display: inline-flex;
+    padding: 20px;
+}
+.t-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#top>img{
+    padding: 15px;
+    width: 970px;
+    
+}
+.mini-head>img{
+    width: 30px;
+    background-color: white;
+    border-radius: 25px ;
+    margin-right: 10px;
+}
+#mid{
+    display: inline-flex;
+    margin-left: 5px;
+}
+.encabeza{
+    font-size: x-large;
+}
+
+.box{
+    background-color: #1468a8;
+    color: white;
+    width: 300px;
+    height: 220px;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+}
+.mini-head{
+    display:inline-flex;
+    margin: 5px;
+    
+}
+.box button{
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    position: absolute;top: 720px;
+    margin-left: 10px;
+    background: linear-gradient(360deg, rgba(26,148,224,1) 55%, rgba(91,181,238,1) 60%);
+    border: none;
+}
+#bot{
+    display: flex;
+}
+#bot img{
+    width: 300px;
+    margin-top: 10px;
+}
+#p1{
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    
+}
+#p2{
+    width: 325px;
+    margin: 10px;
+    padding: 5px;
+    font-size: small;
+    margin-top: 40px;
+}
+#p2 a{
+    text-decoration: none;
+    color: #7da2bd;
+
+}
+#p3{
+    margin: 10px 10px;
+    padding: 5px;
+    position: absolute; left: 1110px;
+}
+#p3 p{
+    margin-top: 20px;
+}
+.card{
+    width: 150px;
+    display: inline-flex;
+    flex-direction: column;
+} 
+.globo{
+    padding: 12px;
+    background: #daedff;
+    padding: 10px;
+    position: relative;
+    width: 290px;
+    height: 70px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    z-index: 1;
+    }
+.globo::after {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 80px;
+    background: transparent;
+    width: 0px; height: 0px;
+    border-bottom: 40px solid #daedff;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    transform: rotate(90deg);
+    z-index: -1;
+    }
+#footer{
+    background-color: #daedff;
+    height: 50px;
+    text-align: center;
+    
+}
+#footer a{
+    text-decoration: none;
+    color: #5f8fb2;
+    margin-left: 20px;
+}
+
+.color1{
+    color: #1b99e8;
+    
+}
